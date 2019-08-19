@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG" verbose="1">
+	<test name="RunCukesTest">
+		<parameter name="myName" value="true" />
+		<classes>
+			<class name="com.planit.training.globalSQA.RunCukesTest">
+			</class>
+		</classes>
+	</test>
+</suite>
